@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./home.html">home</a>
+                  </li>    
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about.html">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5">
+         <h2>Sobre mim</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus felis mauris, vitae ultricies ante auctor in. In hac habitasse platea dictumst. Maecenas auctor eu erat et eleifend. Proin id lacus bibendum, feugiat risus in, pulvinar urna. Aenean lectus lectus, rutrum vitae dignissim fermentum, sodales lacinia mi. Curabitur feugiat eget nunc non sollicitudin. Nulla vitae placerat odio, vel consequat dui. Nulla facilisi. In hac habitasse platea dictumst. Duis pellentesque, tellus ac ullamcorper aliquet, dui tortor pulvinar leo, vel luctus arcu ante tempus arcu. Nam maximus sit amet elit eget iaculis. Nulla risus orci, interdum sed nunc ac, iaculis commodo risus. Vestibulum vulputate ante et mollis ultricies. Morbi lectus velit, faucibus sit amet maximus ac, iaculis et orci. Aenean cursus luctus congue.
+
+            Proin dignissim ante arcu, venenatis molestie turpis pretium sed. Maecenas ac commodo lorem. Curabitur aliquam tortor erat, in mollis lectus vehicula ut. Pellentesque vestibulum consectetur ligula eget vestibulum. Fusce viverra dolor ut laoreet laoreet. Fusce gravida bibendum tortor, vel imperdiet nisl porta id. Proin mattis in felis at mollis. Sed ultricies lacus in mi accumsan venenatis.
+
+            Donec vehicula mi eget leo lobortis hendrerit. Nullam hendrerit ipsum ex, eu bibendum elit sodales in. Nam vel ipsum elementum, mattis arcu id, cursus elit. Aliquam sollicitudin ornare elit. Fusce tristique elementum nibh, sit amet bibendum neque. Etiam quis lectus sem. Vivamus vel velit libero. Praesent at semper lectus, ut dapibus elit. Sed mattis turpis nec risus ultrices, sit amet finibus velit aliquet. Donec mattis ante augue, sed luctus tortor scelerisque sit amet. Donec volutpat euismod vehicula. Nam congue rutrum urna, in sollicitudin nibh dapibus quis. Mauris non tempus elit, vitae sollicitudin lectus. Curabitur vitae est sed ex condimentum vestibulum eget nec erat.
+
+            Quisque libero nibh, ultricies sed tristique quis, commodo et eros. Pellentesque tellus sapien, mollis in eleifend non, sagittis sed nunc. Duis tincidunt pharetra justo eget tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ligula nec urna tincidunt lobortis. Aliquam ac sapien est. Integer pellentesque condimentum nibh sit amet cursus. Aenean cursus sit amet erat sed congue. Praesent accumsan lorem id ante ullamcorper interdum. Nulla accumsan laoreet blandit. Cras hendrerit, metus ultricies convallis faucibus, orci arcu dapibus neque, id condimentum turpis massa ut felis. Suspendisse sit amet iaculis tellus. Vestibulum erat metus, euismod id lectus vel, porta viverra mi.
+
+            Phasellus id enim sed metus aliquet tincidunt. Cras sed nisl leo. Nam faucibus tempus ipsum, sed ultricies orci aliquet quis. Proin fermentum quam ac diam venenatis ultrices. Cras quam velit, facilisis et mauris ut, lacinia laoreet urna. Cras neque nisi, convallis ultrices risus sed, tristique lacinia nibh. Vestibulum mollis tempus augue nec cursus.
+
+            </p>
+      </div>
+    <script>
+        const form = document.getElementById("form");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            window.location.href = "./home.html";
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
